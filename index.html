@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moverover_lookbook</title>
+<title>MOREOVER_LOOKBOOK</title>
 
 <style>
 *{
@@ -26,6 +26,13 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
+}
+
+/* LOGO */
+.logo{
+width:160px;
+margin-bottom:20px;
+border-radius:50%;
 }
 
 h1{
@@ -61,10 +68,24 @@ border-radius:10px;
 margin:10px 0;
 }
 
+.gallery{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:20px;
+}
+
+.gallery img{
+width:250px;
+border-radius:15px;
+}
+
 footer{
 background:#000;
 text-align:center;
 padding:20px;
+margin-top:40px;
 }
 </style>
 </head>
@@ -72,13 +93,28 @@ padding:20px;
 <body>
 
 <header>
-<h1>MOVEROVER_LOOKBOOK</h1>
+
+<!-- Logo -->
+<img src="logo.png" class="logo">
+
+<h1>MOREOVER LOOKBOOK</h1>
 <p>Premium Oversized T-Shirts & Custom T-Shirts</p>
 
 <a class="btn" href="https://wa.me/919960644176">
 Order on WhatsApp
 </a>
+
 </header>
+
+<section>
+<h2>Our Collection</h2>
+
+<div class="gallery">
+<img src="design1.png">
+<img src="design2.png">
+</div>
+
+</section>
 
 <section>
 <h2>Our Services</h2>
@@ -102,7 +138,7 @@ Order on WhatsApp
 </section>
 
 <footer>
-<p>© 2026 MOVEROVER_LOOKBOOK</p>
+<p>© 2026 MOREOVER LOOKBOOK</p>
 </footer>
 
 </body>
